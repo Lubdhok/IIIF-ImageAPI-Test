@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 38,
+    "height" : 22
+  }, {
+    "width" : 76,
+    "height" : 43
+  }, {
+    "width" : 152,
+    "height" : 85
+  }, {
+    "width" : 303,
+    "height" : 170
+  }, {
+    "width" : 606,
+    "height" : 340
+  }, {
+    "width" : 1212,
+    "height" : 680
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1212,
+  "@id" : "https://Lubdhok.github.io/IIIF-ImageAPI-Test/images/test1",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 680
+}
