@@ -1,0 +1,113 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Lubdhok.github.io/IIIF-ImageAPI-Test/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Test Presentation API",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "test book pages",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "creative commons",
+  "sequences" : [ {
+    "@id" : "http://64b961bb-ac9d-407f-91c5-444c7103b927",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://e988d50b-1dab-4242-a15d-7c463243214d",
+      "@type" : "sc:Canvas",
+      "label" : "first",
+      "height" : 680,
+      "width" : 1020,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://56729368-7ff2-4363-bf21-669955c70de3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2FLubdhok%2FIIIF-ImageAPI-Test%2Ftest/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2FLubdhok%2FIIIF-ImageAPI-Test%2Ftest",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 680,
+          "width" : 1020
+        },
+        "on" : "http://e988d50b-1dab-4242-a15d-7c463243214d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://5846d4d4-3d3b-4c42-b492-8f3ebb38f51a",
+      "@type" : "sc:Canvas",
+      "label" : "second",
+      "height" : 680,
+      "width" : 1020,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://100950e0-0cbf-4b84-b897-3ece22249d25",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2FLubdhok%2FIIIF-ImageAPI-Test%2Ftest3/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2FLubdhok%2FIIIF-ImageAPI-Test%2Ftest3",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 680,
+          "width" : 1020
+        },
+        "on" : "http://5846d4d4-3d3b-4c42-b492-8f3ebb38f51a"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4471dd5b-5d30-4338-84ee-7a8cfe56198e",
+      "@type" : "sc:Canvas",
+      "label" : "third",
+      "height" : 680,
+      "width" : 1212,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8499f453-8e4c-4e2a-b367-a138885a5a3f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2FLubdhok%2FIIIF-ImageAPI-Test%2Ft/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2FLubdhok%2FIIIF-ImageAPI-Test%2Ft",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 680,
+          "width" : 1212
+        },
+        "on" : "http://4471dd5b-5d30-4338-84ee-7a8cfe56198e"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
