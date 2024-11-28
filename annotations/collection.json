@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://Lubdhok.github.io/IIIF-ImageAPI-Test/annotations/5f4f35936a77c1089769b2d09e20e3b8.json" ],
+  "@id" : "https://Lubdhok.github.io/IIIF-ImageAPI-Test/annotations/collection.json",
+  "label" : "All annotations loaded in Lubdhok/IIIF-ImageAPI-Test project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
