@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Lubdhok.github.io/IIIF-ImageAPI-Test/manifests/manifest2.json",
     "label" : "Test Presentation API"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Lubdhok.github.io/IIIF-ImageAPI-Test/manifests/manifest.json",
+    "label" : "Handwritten Letter"
   } ]
 }
