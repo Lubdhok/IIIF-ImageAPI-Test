@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Lubdhok.github.io/IIIF-ImageAPI-Test/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Handwritten Letter",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Handwritten letter by Oscar Wilde",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://e9411143-1dd4-42eb-b855-08812ba0b3b6",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://ad133c81-ca43-4646-a63e-4b86a2c4dfef",
+      "@type" : "sc:Canvas",
+      "label" : "letter",
+      "height" : 755,
+      "width" : 1000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://85296337-4554-4ad5-980f-ccfb985366fb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://lubdhok.github.io/IIIF-ImageAPI-Test/images/8g84mm76s_files_1d8ab5f0-a892-4eba-922a-48706a14f678_fcr_versions_version1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://lubdhok.github.io/IIIF-ImageAPI-Test/images/8g84mm76s_files_1d8ab5f0-a892-4eba-922a-48706a14f678_fcr_versions_version1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 755,
+          "width" : 1000
+        },
+        "on" : "http://ad133c81-ca43-4646-a63e-4b86a2c4dfef"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://eaf76c21-400d-47cb-945a-b877c24814a7",
+      "@type" : "sc:Canvas",
+      "label" : "Letter to lady Charchil",
+      "height" : 1366,
+      "width" : 1000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://41a46769-56ee-4f89-bb89-5cdc55cd0a6b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://lubdhok.github.io/IIIF-ImageAPI-Test/images/5425kb124_files_36bfa13f-c7f3-4823-94f3-98af3ff82a97_fcr_versions_version1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://lubdhok.github.io/IIIF-ImageAPI-Test/images/5425kb124_files_36bfa13f-c7f3-4823-94f3-98af3ff82a97_fcr_versions_version1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1366,
+          "width" : 1000
+        },
+        "on" : "http://eaf76c21-400d-47cb-945a-b877c24814a7"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
