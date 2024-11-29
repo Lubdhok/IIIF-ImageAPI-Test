@@ -9,6 +9,87 @@
     },
     "items": [
         {
+            "id": "https://Lubdhok.github.io/IIIF-ImageAPI-Test/images/8g84mm76s_files_1d8ab5f0-a892-4eba-922a-48706a14f678_fcr_versions_version1/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "8g84mm76s_files_1d8ab5f0-a892-4eba-922a-48706a14f678_fcr_versions_version1"
+                ]
+            },
+            "height": 755,
+            "width": 1000,
+            "items": [
+                {
+                    "id": "https://Lubdhok.github.io/IIIF-ImageAPI-Test/images/8g84mm76s_files_1d8ab5f0-a892-4eba-922a-48706a14f678_fcr_versions_version1/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://Lubdhok.github.io/IIIF-ImageAPI-Test/images/8g84mm76s_files_1d8ab5f0-a892-4eba-922a-48706a14f678_fcr_versions_version1/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://Lubdhok.github.io/IIIF-ImageAPI-Test/images/8g84mm76s_files_1d8ab5f0-a892-4eba-922a-48706a14f678_fcr_versions_version1/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 32,
+                                                "height": 24
+                                            },
+                                            {
+                                                "width": 63,
+                                                "height": 48
+                                            },
+                                            {
+                                                "width": 125,
+                                                "height": 95
+                                            },
+                                            {
+                                                "width": 250,
+                                                "height": 189
+                                            },
+                                            {
+                                                "width": 500,
+                                                "height": 378
+                                            },
+                                            {
+                                                "width": 1000,
+                                                "height": 755
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1000,
+                                        "@id": "https://Lubdhok.github.io/IIIF-ImageAPI-Test/images/8g84mm76s_files_1d8ab5f0-a892-4eba-922a-48706a14f678_fcr_versions_version1",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 755,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://Lubdhok.github.io/IIIF-ImageAPI-Test/images/8g84mm76s_files_1d8ab5f0-a892-4eba-922a-48706a14f678_fcr_versions_version1/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://Lubdhok.github.io/IIIF-ImageAPI-Test/images/test/canvas/",
             "type": "Canvas",
             "label": {
